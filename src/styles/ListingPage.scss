@@ -12,10 +12,9 @@
    }
 
    .back-div {
-      background: #000;
+      // background: #000;
       height: 40px;
       width: 100%;
-      // margin-top: 30px;
    }
 }
 
@@ -35,6 +34,7 @@
 
    .detail-left-column {
       background: #F5F7FF;
+      height: 699px;
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -68,7 +68,7 @@
             align-items: center;
             justify-content: space-between;
             margin-top: 20px;
-            padding: 15px;
+            padding: 10px 15px;
 
             h2 {
                font-size: 16px;
@@ -89,8 +89,84 @@
             }
          }
       }
+
+      .part-three {
+         .category {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 20px;
+            padding: 0px 15px;
+
+            h2 {
+               font-size: 16px;
+               margin-right: auto;
+            }
+         }
+
+         .red-black {
+            display: flex;
+            gap: 10px;
+            padding: 0px 15px;
+
+            .red,
+            .black {
+               width: 35px;
+               height: 35px;
+               background: red;
+               border-radius: 50%;
+            }
+
+            .black {
+               background: #000;
+            }
+         }
+      }
+
+      .part-four {
+         .category {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 20px;
+            padding: 0px 15px;
+
+            h2 {
+               font-size: 18px;
+               margin-right: auto;
+            }
+         }
+      }
+
+      .button-div {
+         display: flex;
+         justify-content: center;
+
+         .button1 {
+            width: 230px;
+            height: 50px;
+            border-radius: 50px;
+            background: #0156FF;
+            border: 0;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            margin-top: 10px;
+         }
+      }
+
+      .brand-div{
+
+         margin-top: 25px;
+         height: 100px;
+         width: 265px;
+         background: #F5F7FF;
+      }
    }
 
-   .detail-right-column {
-   }
+   .detail-right-column {}
 }

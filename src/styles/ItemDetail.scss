@@ -1,3 +1,74 @@
+
+// ------------------------- Item Details NavBar Styles -----------------------------
+.main-content1{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 11%;
+   .navbar{
+      ul{
+         display: flex;
+         gap: 40px;
+         padding: 0px 16px;
+         font-size: 14px;
+         font-weight: 600;
+
+         li{
+            list-style: none;
+         }
+      }
+   }
+
+   .right{
+      display: inline-flex;
+      gap: 25px;
+      padding-right: 10px;
+      align-items: center;
+
+      .one{
+         display: flex;
+         gap: 20px;
+         background: #F5F7FF;
+         width: 75px;
+         height: 50px;
+         padding: 5px 20px;
+         align-items: center;
+         border-radius: 6px;
+
+         p{
+         font-size: 20px;
+         }
+         .up-down{
+            display: flex;
+            flex-direction: column;
+            font-size: 10px;
+            gap: 5px;
+            
+         }
+      }
+
+
+      .button1{
+         width: 151px;
+         height: 50px;
+         border-radius: 50px;
+         background: #0156FF;
+         border: 0;
+         color: #ffffff;
+      }
+      .button2{
+         width: 140px;
+         height: 50px;
+         border-radius: 50px;
+         border: 0;
+         color: #ffffff;
+         background: #FFB800;
+      }
+   }
+}
+
+
+// ------------------------- Item Details Page Styles -----------------------------
 .items-detail-container{
    height: 100vh;
    width: 100%;
@@ -8,5 +79,31 @@
 
 .columns {
    display: grid;
-   grid-template-columns: 1fr 1fr;
+   grid-template-columns: 3fr 2fr;
+   margin-top: 70px;
+
+   .left-column{
+      height: 645px;
+      width: 100%;
+      background: #F5F7FF;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      padding-left: 209px;
+      padding-top: 60px;
+      margin-right: 20px;
+   }
+
+   .right-column{
+      // height: 675px;
+      display: flex;
+      justify-content: center;
+      // align-items: center;
+      margin-top: 40px;
+
+      img{
+         width: 300px;
+         height: 300px;
+      }
+   }
 }

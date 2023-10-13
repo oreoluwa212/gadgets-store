@@ -1,0 +1,96 @@
+// Listing Section styles
+.list-heading {
+   width: 100%;
+   margin: 20px 0px;
+
+
+   .listings {
+      display: inline-flex;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .back-div {
+      background: #000;
+      height: 40px;
+      width: 100%;
+      // margin-top: 30px;
+   }
+}
+
+.detail-container {
+   width: 100%;
+   height: 80vw;
+   display: grid;
+   grid-template-columns: 1fr 4fr;
+
+   .products-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 2em 1em;
+      cursor: pointer;
+   }
+
+   .detail-left-column {
+      background: #F5F7FF;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+
+      .part-one {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+
+         h2 {
+            font-size: 18px;
+            padding: 14px;
+         }
+
+         button {
+            width: 90%;
+            height: 37px;
+            border-radius: 50px;
+            border: 2px solid #A2A6B0;
+            background: transparent;
+            color: var(--text-light);
+
+         }
+      }
+
+      .part-two {
+         .category {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 20px;
+            padding: 15px;
+
+            h2 {
+               font-size: 16px;
+               margin-right: auto;
+            }
+         }
+
+         .lists {
+            display: flex;
+            // justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 15px;
+
+            h3 {
+               font-size: 14px;
+               margin-right: auto;
+            }
+         }
+      }
+   }
+
+   .detail-right-column {
+   }
+}

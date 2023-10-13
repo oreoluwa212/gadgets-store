@@ -2,4 +2,4 @@
 
 <img src="./src/assets/msi-gadget.png">
 
-<!-- [Link to Hosted Page](https://bis-payer.vercel.app/) -->
+<!-- [Link to Hosted Page]() -->

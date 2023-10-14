@@ -54,19 +54,22 @@ const Navbar = () => {
         </div>
         <div className="nav-links">
           {links.map((link) => (
-            <Link
-              key={link.id}
-              to={link.path}
-            >
+            <Link key={link.id} to={link.path}>
               {link.name}
             </Link>
           ))}
           <button className="btn">Our Deals</button>
         </div>
-        <div className="right">
-          <FontAwesomeIcon icon={faSearch} />
-          <FontAwesomeIcon icon={faShoppingCart} />
-          <img src={profileImg} alt="Profile Image" />
+        <div className="user-div">
+          <div className="">
+            <FontAwesomeIcon icon={faSearch} />
+          </div>
+          <div className="">
+            <FontAwesomeIcon icon={faShoppingCart} />
+          </div>
+          <div className="">
+            <img src={profileImg} alt="Profile Image" />
+          </div>
         </div>
       </div>
     </div>

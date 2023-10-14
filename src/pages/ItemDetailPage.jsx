@@ -12,7 +12,7 @@ const ItemDetailPage = () => {
   return (
     <>
       <Navbar />
-      <div className="">
+      <div>
          <div className="items-detail-container">
             <ItemDetail state={state} />
          </div>

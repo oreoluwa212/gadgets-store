@@ -146,7 +146,7 @@ const Detail = () => {
            {laptops.map((laptop) => (
              <div
                onClick={() =>
-                 navigate("/desktops", {
+                 navigate("/detail-item", {
                    state: {
                      id: laptop.id,
                      img: laptop.img,
@@ -163,7 +163,7 @@ const Detail = () => {
            {laptops.map((laptop) => (
              <div
                onClick={() =>
-                 navigate("/desktops", {
+                 navigate("/detail-item", {
                    state: {
                      id: laptop.id,
                      img: laptop.img,
@@ -180,7 +180,7 @@ const Detail = () => {
            {laptops.map((laptop) => (
              <div
                onClick={() =>
-                 navigate("/desktops", {
+                 navigate("/detail-item", {
                    state: {
                      id: laptop.id,
                      img: laptop.img,

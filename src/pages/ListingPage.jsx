@@ -32,7 +32,6 @@ const ListingPage = () => {
           <div className="back-div"></div>
         </div>
         <Detail />
-        {/* <ProductSection /> */}
       </div>
       <Footer />
     </>
